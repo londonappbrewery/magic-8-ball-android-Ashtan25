@@ -27,7 +27,7 @@ public class MainActivity extends Activity {
             @Override
             public void onClick(View v) {
                 Random randomNumber=new Random();
-                int number=randomNumber.nextInt(4);
+                int number=randomNumber.nextInt(5);
 
                 image_eightBall.setImageResource(imageArray[number]);
 
